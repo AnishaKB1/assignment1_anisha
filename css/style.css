@@ -16,6 +16,12 @@ img.slide1{
     height: 600px;
     
 }
+@media screen and (max-width: 767px) {
+    img.slide1,img.dist-cards{
+        height: 300px;
+        
+    }
+}
 .btn-warning:hover{
     background-color: dodgerblue;
      color: black !important ;
@@ -31,7 +37,7 @@ img.slide1{
 h2{
     text-align: center;
     color: rgb(27, 97, 168);
-    font-famrgb(39, 32, 32)ambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
     margin-top: 0.25em;
 }
