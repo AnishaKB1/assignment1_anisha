@@ -155,3 +155,50 @@ color:black;
 font-weight: bolder;
 text-align: center;
 }
+/* The message box is shown when the user clicks on the password field */
+#message {
+    display:none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+    text-align: left;
+}
+  
+  
+  #message p {
+    padding: 5px 5px;
+    font-size: 15px;
+    margin: 8px 0;
+  }
+  #message h5{
+    text-align: center;
+  }
+  
+  /* Add a green text color and a checkmark when the requirements are right */
+  .valid {
+    color: green;
+  }
+  
+  .valid:before {
+    position: relative;
+    left: -5px;
+    content: "✔";
+  }
+  
+  /* Add a red text color and an "x" when the requirements are wrong */
+  .invalid {
+    color: red;
+  }
+  
+  .invalid:before {
+    position: relative;
+    left: -5px;
+    content: "✖";
+  }
+  #check{
+    text-align: left;
+  }
+
+  

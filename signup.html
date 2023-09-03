@@ -61,33 +61,74 @@
             <div class="card-body p-5">
               <h2 class="text-uppercase text-center mb-5">Create an account</h2>
 
-              <form >
+              <form action=" " onsubmit="event.preventDefault(); return regValidate()">
 
                 <div class="form-outline mb-4">
                     
                  
-                  <input type="text" placeholder="Name" id="typeEmailX" class="form-control form-control-lg" />
-                 
-                </div>
-
-                <div class="form-outline mb-4">
-                    
-                  <input type="email" placeholder="Email Address" id="form3Example3cg" class="form-control form-control-lg" />
+                  <input type="text" placeholder="Name" id="name" class="form-control form-control-lg" />
+                  
+              
+                  <span id="errname"></span>
                   
                 </div>
+                
+                
+            
+                <div class="form-outline mb-4">
+                    
+                 
+                  <input type="text" placeholder="Phone Number" id="phone" class="form-control form-control-lg" />
+                
+              
+                <span id="errphone"></span>
+                
+                </div>
 
+                
+                <div class="form-outline mb-4">
+                    
+                  <input type="email" placeholder="Email Address" id="email" class="form-control form-control-lg" />
+                  
+              
+                <span id="erremail"></span>
+                
+                </div>
+                
                 <div class="form-outline mb-4">
                    
-                  <input type="password" placeholder="Password" id="form3Example4cg" class="form-control form-control-lg" />
+                  <input type="password" placeholder="Password" id="pwd" class="form-control form-control-lg" />
                   
+              
+                <span id="errpwd"></span>
+                
                 </div>
+                <div class="form-outline mb-4">
+                  <input type="checkbox" onclick="myFunction()">
+                  <label for="password"> Show Password</label> 
+                 </div>
+                
 
                 <div class="form-outline mb-4">
                     
-                  <input type="password" placeholder="Repeat Password" id="form3Example4cdg" class="form-control form-control-lg" />
-                  
+                  <input type="password" placeholder="Repeat Password" id="repwd" class="form-control form-control-lg" />
+                
+              
+                <span id="errrepwd"></span>
+              
+                
+              </div>
+              
+                <div id="message">
+                  <h5>Password must contain the following:</h5>
+                  <p  class="password-message-item invalid">A <b>lowercase</b> letter</p>
+                  <p  class="password-message-item invalid">A <b>Uppercase</b> letter</p>
+                  <p  class="password-message-item invalid">A <b>number</b></p>
+                  <p  class="password-message-item invalid">A <b>Special Character</b></p>
+                  <p  class="password-message-item invalid">Minimum <b>8 characters</b></p>
                 </div>
-
+               
+              
                 <div class="form-check d-flex justify-content-center mb-5">
                   <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3cg" />
                   <label class="form-check-label" for="form2Example3g">
@@ -96,7 +137,7 @@
                 </div>
 
                 <div class="d-flex justify-content-center">
-                  <button type="button"
+                  <button type="submit"
                     class="btn btn-info btn-block btn-lg gradient-custom-4 text-body text-white">Register</button>
                 </div>
 
@@ -179,7 +220,7 @@
 <!--Footer ends here-->
     <!--JS CDN-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-  
+    <script src="signvalidation.js"></script>
 
 </body>
 </html>
