@@ -1,7 +1,7 @@
 var email = document.getElementById('lemail');
 var erremail = document.getElementById('errlemail');
 
-var regexp = /^[a-z0-9]+@[a-z]+\.[a-z]{2,3}$/;
+var regexp = /^[a-zA-Z0-9\-.]+@[a-z]+\.[a-z]{2,3}$/;
 //var strengthBadge = document.getElementById('errpwd');
 
 

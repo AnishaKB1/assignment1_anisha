@@ -11,7 +11,7 @@ var repwd = document.getElementById('repwd');
 var errrepwd = document.getElementById('errrepwd');
 
 
-var regexp = /^[a-z0-9]+@[a-z]+\.[a-z]{2,3}$/;
+var regexp = /^[a-zA-Z0-9\-.]+@[a-z]+\.[a-z]{2,3}$/;
 
 
 var regphone = /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/im;
@@ -167,7 +167,7 @@ function regValidate(e) {
     errrepwd.style.fontSize = "large";
 
   }
-  else if (pwd.value != repwd.value){
+  else if (pwd.value != repwd.value) {
     errrepwd.innerText = "Password didn not match";
     errrepwd.style.color = 'red';
     errrepwd.style.fontSize = "large";

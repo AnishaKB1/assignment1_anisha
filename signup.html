@@ -1,226 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kerala Tourisam</title>
-    <!--Bootstrap CSS CDN-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-     <link rel="stylesheet" href="./css/style.css">
-     <!-- Add icon library -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kerala Tourisam</title>
+  <!--Bootstrap CSS CDN-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- Add icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
   <!--Navbar starts here-->
-    <nav class="navbar navbar-expand-lg  navbar-light bg-success px-3 py-3">
-      <img src="./images/lg3.png" alt="">
-        <div class="container-fluid">
-          <a class="navbar-brand text-white fw-bold" href="#">Kerala Tourisam</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
-              <li class="nav-item  ms-auto  ">
-                <a class="nav-link " href="index.html">Home</a>
-              </li>
-              <li class="nav-item ms-auto  ">
-                <a class="nav-link " href="district.html">Districts</a>
-              </li>
-              <li class="nav-item ms-auto ">
-                <a class="nav-link " href="experience.html">Experience</a>
-              </li>
-              
-              <li class="nav-item ms-auto ">
-                <a class="nav-link " href="signup.html">Sign Up</a>
-              </li>
-              <li class="nav-item ms-auto ">
+  <nav class="navbar navbar-expand-lg  navbar-light bg-success px-3 py-3">
+    <img src="./images/lg3.png" alt="">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white fw-bold" href="#">Kerala Tourisam</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+          <li class="nav-item  ms-auto  ">
+            <a class="nav-link " href="index.html">Home</a>
+          </li>
+          <li class="nav-item ms-auto  ">
+            <a class="nav-link " href="district.html">Districts</a>
+          </li>
+          <li class="nav-item ms-auto ">
+            <a class="nav-link " href="experience.html">Experience</a>
+          </li>
+
+          <li class="nav-item ms-auto ">
+            <a class="nav-link " href="signup.html">Sign Up</a>
+          </li>
+          <li class="nav-item ms-auto ">
             <a href="login.html" class="btn btn-warning btn-lg-active  " role="button">Login</a>
           </li>
-          </ul>
-          </div>
-          
-        </div>
-      </nav>
-      <!--Navbar ends here-->
+        </ul>
+      </div>
 
-      <!-- Bootstrap grid code start here -->
+    </div>
+  </nav>
+  <!--Navbar ends here-->
 
-<section class="vh-300 bg-image"
+  <!-- Bootstrap grid code start here -->
 
-  style="background-image: url('./images/sign.jpg');">
-  <br>
-  <div class="mask d-flex align-items-center h-100 gradient-custom-3">
-    <div class="container h-90">
-      <div class="row d-flex justify-content-center align-items-center h-90">
-        <div class="col-12 col-md-9 col-lg-7 col-xl-6">
-          <div class="card" style="border-radius: 15px;">
-            <div class="card-body p-5">
-              <h2 class="text-uppercase text-center mb-5">Create an account</h2>
+  <section class="vh-300 bg-image" style="background-image: url('./images/sign.jpg');">
+    <br>
+    <div class="mask d-flex align-items-center h-100 gradient-custom-3">
+      <div class="container h-90">
+        <div class="row d-flex justify-content-center align-items-center h-90">
+          <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+            <div class="card" style="border-radius: 15px;">
+              <div class="card-body p-5">
+                <h2 class="text-uppercase text-center mb-5">Create an account</h2>
 
-              <form action=" " onsubmit="event.preventDefault(); return regValidate()">
+                <form action=" " onsubmit="event.preventDefault(); return regValidate()">
 
-                <div class="form-outline mb-4">
-                    
-                 
-                  <input type="text" placeholder="Name" id="name" class="form-control form-control-lg" />
-                  
-              
-                  <span id="errname"></span>
-                  
-                </div>
-                
-                
-            
-                <div class="form-outline mb-4">
-                    
-                 
-                  <input type="text" placeholder="Phone Number" id="phone" class="form-control form-control-lg" />
-                
-              
-                <span id="errphone"></span>
-                
-                </div>
+                  <div class="form-outline mb-4">
 
-                
-                <div class="form-outline mb-4">
-                    
-                  <input type="email" placeholder="Email Address" id="email" class="form-control form-control-lg" />
-                  
-              
-                <span id="erremail"></span>
-                
-                </div>
-                
-                <div class="form-outline mb-4">
-                   
-                  <input type="password" placeholder="Password" id="pwd" class="form-control form-control-lg" />
-                  
-              
-                <span id="errpwd"></span>
-                
-                </div>
-                <div class="form-outline mb-4">
-                  <input type="checkbox" onclick="myFunction()">
-                  <label for="password"> Show Password</label> 
-                 </div>
-                
 
-                <div class="form-outline mb-4">
-                    
-                  <input type="password" placeholder="Repeat Password" id="repwd" class="form-control form-control-lg" />
-                
-              
-                <span id="errrepwd"></span>
-              
-                
+                    <input type="text" placeholder="Name" id="name" class="form-control form-control-lg" />
+
+
+                    <span id="errname"></span>
+
+                  </div>
+
+
+
+                  <div class="form-outline mb-4">
+
+
+                    <input type="text" placeholder="Phone Number" id="phone" class="form-control form-control-lg" />
+
+
+                    <span id="errphone"></span>
+
+                  </div>
+
+
+                  <div class="form-outline mb-4">
+
+                    <input type="email" placeholder="Email Address" id="email" class="form-control form-control-lg" />
+
+
+                    <span id="erremail"></span>
+
+                  </div>
+
+                  <div class="form-outline mb-4">
+
+                    <input type="password" placeholder="Password" id="pwd" class="form-control form-control-lg" />
+
+
+                    <span id="errpwd"></span>
+
+                  </div>
+                  <div class="form-outline mb-4">
+                    <input type="checkbox" onclick="myFunction()">
+                    <label for="password"> Show Password</label>
+                  </div>
+
+
+                  <div class="form-outline mb-4">
+
+                    <input type="password" placeholder="Repeat Password" id="repwd"
+                      class="form-control form-control-lg" />
+
+
+                    <span id="errrepwd"></span>
+
+
+                  </div>
+
+                  <div id="message">
+                    <h5>Password must contain the following:</h5>
+                    <p class="password-message-item invalid">A <b>lowercase</b> letter</p>
+                    <p class="password-message-item invalid">A <b>Uppercase</b> letter</p>
+                    <p class="password-message-item invalid">A <b>number</b></p>
+                    <p class="password-message-item invalid">A <b>Special Character</b></p>
+                    <p class="password-message-item invalid">Minimum <b>8 characters</b></p>
+                  </div>
+
+
+                  <div class="form-check d-flex justify-content-center mb-5">
+                    <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3cg" />
+                    <label class="form-check-label" for="form2Example3g">
+                      I agree all statements in <a href="#!" class="text-body"><u>Terms of service</u></a>
+                    </label>
+                  </div>
+
+                  <div class="d-flex justify-content-center">
+                    <button type="submit"
+                      class="btn btn-info btn-block btn-lg gradient-custom-4 text-body text-white">Register</button>
+                  </div>
+
+                  <p class="text-center text-muted mt-5 mb-0">Have already an account? <a href="login.html"
+                      class="fw-bold text-body"><u>Login here</u></a></p>
+
+                </form>
+
               </div>
-              
-                <div id="message">
-                  <h5>Password must contain the following:</h5>
-                  <p  class="password-message-item invalid">A <b>lowercase</b> letter</p>
-                  <p  class="password-message-item invalid">A <b>Uppercase</b> letter</p>
-                  <p  class="password-message-item invalid">A <b>number</b></p>
-                  <p  class="password-message-item invalid">A <b>Special Character</b></p>
-                  <p  class="password-message-item invalid">Minimum <b>8 characters</b></p>
-                </div>
-               
-              
-                <div class="form-check d-flex justify-content-center mb-5">
-                  <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3cg" />
-                  <label class="form-check-label" for="form2Example3g">
-                    I agree all statements in <a href="#!" class="text-body"><u>Terms of service</u></a>
-                  </label>
-                </div>
-
-                <div class="d-flex justify-content-center">
-                  <button type="submit"
-                    class="btn btn-info btn-block btn-lg gradient-custom-4 text-body text-white">Register</button>
-                </div>
-
-                <p class="text-center text-muted mt-5 mb-0">Have already an account? <a href="login.html"
-                    class="fw-bold text-body"><u>Login here</u></a></p>
-
-              </form>
-
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <br>
-</section>
-
-<br>
-  
-<!--places codes ends here-->
-<!--Footer starts here-->
-
-<footer class="bg-light text-center text-white">
-<!-- Grid container -->
-<div class="container p-4 pb-0">
-  <!-- Section: Social media -->
-  <section class="mb-4">
-    <!-- Facebook -->
-    <a
-      class="btn text-white btn-floating m-1"
-      style="background-color: #3b5998;"
-      href="#!"
-      role="button">
-      <i class="fa fa-facebook-square" aria-hidden="true"></i>
-   </a>
-
-    <!-- Twitter -->
-    <a
-      class="btn text-white btn-floating m-1"
-      style="background-color: #55acee;"
-      href="#!"
-      role="button"
-      ><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
-
-    <!-- Google -->
-    <a
-      class="btn text-white btn-floating m-1"
-      style="background-color: #dd4b39;"
-      href="#!"
-      role="button"
-      ><i class="fa fa-google" aria-hidden="true"></i></a>
-
-    <!-- Instagram -->
-    <a
-      class="btn text-white btn-floating m-1"
-      style="background-color: #ac2bac;"
-      href="#!"
-      role="button"
-      ><i class="fa fa-instagram" aria-hidden="true"></i></a>
-
-    
+    <br>
   </section>
-  <!-- Section: Social media -->
-</div>
-<!-- Grid container -->
 
-<!-- Copyright -->
-<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-  Department of Tourism, Government of Kerala, Park View, Thiruvananthapuram, Kerala, India - 695 033
   <br>
-    Phone: +91 471 2321132, Fax: +91 471 2322279, E-mail: info@keralatourism.org.
-    <br>
-    All rights reserved © Kerala Tourism 2023. Copyright | Terms of Use | Cookie Policy | Contact Us.
-    <br>
-    Developed & Maintained by Invis.
-</div>
-<!-- Copyright -->
-</footer>
 
-<!--Footer ends here-->
-    <!--JS CDN-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-    <script src="signvalidation.js"></script>
+  <!--places codes ends here-->
+  <!--Footer starts here-->
+
+  <footer class="bg-light text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn text-white btn-floating m-1" style="background-color: #3b5998;" href="#!" role="button">
+          <i class="fa fa-facebook-square" aria-hidden="true"></i>
+        </a>
+
+        <!-- Twitter -->
+        <a class="btn text-white btn-floating m-1" style="background-color: #55acee;" href="#!" role="button"><i
+            class="fa fa-twitter-square" aria-hidden="true"></i></a>
+
+        <!-- Google -->
+        <a class="btn text-white btn-floating m-1" style="background-color: #dd4b39;" href="#!" role="button"><i
+            class="fa fa-google" aria-hidden="true"></i></a>
+
+        <!-- Instagram -->
+        <a class="btn text-white btn-floating m-1" style="background-color: #ac2bac;" href="#!" role="button"><i
+            class="fa fa-instagram" aria-hidden="true"></i></a>
+
+
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      Department of Tourism, Government of Kerala, Park View, Thiruvananthapuram, Kerala, India - 695 033
+      <br>
+      Phone: +91 471 2321132, Fax: +91 471 2322279, E-mail: info@keralatourism.org.
+      <br>
+      All rights reserved © Kerala Tourism 2023. Copyright | Terms of Use | Cookie Policy | Contact Us.
+
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+  <!--Footer ends here-->
+  <!--JS CDN-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <script src="signvalidation.js"></script>
 
 </body>
+
 </html>
